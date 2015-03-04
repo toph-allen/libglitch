@@ -57,7 +57,7 @@ class Melody:
         STATE_NUMBER = False
 
         for i, line in enumerate(lines):
-            assert(len(line) <= 16)  # only 16 characters per line allowed
+            # assert(len(line) <= 16)  # only 16 characters per line allowed
             if i in mutedlines:
                 continue
 
